@@ -1,0 +1,82 @@
+.contener{
+  
+    float: left;
+    display: flex;
+    gap: 50px;
+    height: 650px;
+    width: 1000px;
+    animation: move 2s ease-out;
+    
+}
+.column{
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+
+    
+
+}
+
+@keyframes move {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 400px;
+	}
+}
+
+
+
+
+.krisha{
+    width: 250px;
+    height: 70px;
+    margin-left: 70px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    background-color: #ddff00;
+}
+.osnovanie{
+    width: 410px;
+    height: 70px;
+    background-color: #ddff00;
+  margin-left: 10px;
+}
+.koleso1{
+    border-radius: 50%;
+    background-color: blue;
+    width: 90px;
+    height: 90px;
+    margin-left: 60px;
+  
+   
+    
+}
+.koleso2{
+    border-radius: 50%;
+    background-color: blue;
+    width: 90px;
+    height: 90px;
+    margin-left: 220px;
+    
+    
+}
+.ocno1{
+    width:100px;
+    height: 80px;
+    background-color: #1c1c1c;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.ocno2{
+    width:100px;
+    height: 80px;
+    background-color: #575757;
+  margin-left: 110px;
+  margin-top: 10px;
+}
